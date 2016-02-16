@@ -1,0 +1,72 @@
+.pad10{
+padding:10px;	
+}
+.pad20{
+padding:20px;	
+}
+.pad30{
+padding:30px;	
+}
+
+.loginForm{
+	max-width:500px;
+	margin:auto;
+}
+.pagetitle{
+text-align: center;	
+}
+.menu{
+	max-width:500px;
+	margin:auto;
+	
+}
+.EN:hover{
+opacity:.7;
+}
+.EN{
+	background-color: gold;
+	cursor:pointer;
+}
+.NA{
+	background-color: dimgrey;
+}
+.ENtext{
+	text-align:center;
+	
+	color:black;
+}
+.ENtext:hover{
+	
+	color:black;
+}
+.demo{
+	min-height: 210px;
+	border: 5px solid white; 
+}
+@media (max-width: 480px) {
+    .ENtext{
+    font-size:50px;
+		text-align:center;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .ENtext{
+    font-size:30px;
+		text-align:center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+    .ENtext{
+    font-size:30px;
+		text-align:center;
+    }
+}
+
+@media (min-width: 980px) {
+  .ENtext{
+  font-size:30px;
+	  text-align:center;
+  }
+}

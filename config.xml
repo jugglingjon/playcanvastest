@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+    id        = "io.cordova.helloCordova"
+    version   = "2.0.0">
+
+    <name>PCDEMO</name>
+
+    <description>
+        pc demo sample application that responds to the deviceready event.
+    </description>
+
+	<access origin="*"/>
+    <!-- Added the following intents to support the removal of whitelist code from base cordova to a plugin -->
+    <!-- Whitelist configuration. Refer to https://cordova.apache.org/docs/en/edge/guide_appdev_whitelist_index.md.html -->
+    <plugin name="cordova-plugin-whitelist" version="1" />
+	<allow-intent href="*" />
+	<allow-navigation href="*" />
+ 
+  
+
+</widget>
+
+
+
